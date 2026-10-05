@@ -1,12 +1,3 @@
-# Project Name
-
-[![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://www.python.org/)
-[![Framework](https://img.shields.io/badge/Framework-Django%20%7C%20FastAPI-green.svg)](https://www.djangoproject.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-> A concise, one-sentence description of what this backend service does (e.g., "RESTful backend service powering the e-commerce platform with asynchronous task processing.").
-
----
 
 ## Table of Contents
 - [Analysis](#analysis--documentation)
@@ -21,14 +12,11 @@
 
 ---
 
-
 ## Analysis
 
-All conceptual and functional documentation is maintained in the [`docs/`](./docs/) directory:
-
-- **[Functional Requirements & Specs](./docs/analysis.md)** : User stories, scope, and business rules.
-- **[Concetption Diagrams](./docs/diagrams/)** : 
-  - [Use Case Diagram](./docs/diagrams/images/use-case.png)
+- **[Functional requirements](./docs/analysis.md)** 
+- **[Concetption diagrams](./docs/diagrams/)** : 
+  - [Use Case Diagram](./docs/diagrams/images/use-case-diagram-Librarian.png)
   - [Class Diagram](./docs/diagrams/images/class-diagram.png)
   - [Activity Diagram](./docs/diagrams/images/activity-diagram.png)
   - [Sequence Diagram](./docs/diagrams/images/sequence-diagram.png)
@@ -53,25 +41,20 @@ All conceptual and functional documentation is maintained in the [`docs/`](./doc
 └── README.md
 ```
 
----
 
 ## Stack
 
 - **Django / Django REST Framework**
 - **PostgreSQL**
-- **Celery + Redis**
-- **Docker & Docker Compose**
-- **Pytest**
 
 ---
 
-## Getting started
 ### Installation
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/karuidesu/library-manager.git
-   cd library-manager
+   git clone https://github.com/karuidesu/library-management-api.git
+   cd library-management-api
    ```
 
 2. **Virtual environment:**
@@ -114,7 +97,7 @@ The server will start at `http://127.0.0.1:8000/`.
 ## Tests
 
 ```bash
-pytest tests/<path/to/test_file.py>
+pytest tests/path_to_test_file.py
 ```
 
 ---
@@ -127,8 +110,6 @@ pytest tests/<path/to/test_file.py>
 
 ---
 
-## License
+## MIT License
 
-Distributed under the MIT License. See `LICENSE` for more information.
-
-# *_ARIGATO_*
+### *_ARIGATO_*

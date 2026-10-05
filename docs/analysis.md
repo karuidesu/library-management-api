@@ -6,15 +6,15 @@ This project is a backend service for a library management system that provides 
 ## Analysis and medeling
 
 - **Methods :** UML, BPMN 2.0
-- **Tool :** Camunda Modeler
+- **Tool :** Camunda Modeler, Draw.io
 
 ## Products
 
-- **[Class Diagram](./docs/diagrams/images/class-diagram.png)**
-- **[Activity Diagram](./docs/diagrams/images/activity-diagram.png)**
-- **[Sequence Diagram](./docs/diagrams/images/sequence-diagram.png)**
-- **[Use case Diagrams](./docs/diagrams/images/use-case-diagram.png)**
-- **[Package Diagram](./docs/diagrams/images/package-diagram.png)**
+- **[Class Diagram](./diagrams/images/class-diagram.png)**
+- **[Activity Diagram](./diagrams/images/activity-diagram.png)**
+- **[Sequence Diagram](./diagrams/images/sequence-diagram.png)**
+- **[Use case Diagrams](./diagrams/images/use-case-diagram.png)**
+- **[Package Diagram](./diagrams/images/package-diagram.png)**
 
 ## Actors
 
@@ -57,7 +57,7 @@ This project is a backend service for a library management system that provides 
 * **Search member:** As a librarian/admin, search for members by name or email to quickly manage accounts and check borrowed items.
 * **Manage users:** As an admin, manage staff permissions and roles to maintain proper system security and access control.
 
-### 4. Analytics
+### 4. Statistics
 * **View statistics:** As an administrator, view high-level library statistics (e.g., total books, active loans, popular categories) to monitor system performance.
 * **Generate reports:** As an administrator, generate detailed system reports to analyze usage trends and overall inventory health.
 
