@@ -1,1 +1,30 @@
+# Virtual environments
+libenv/
+.venv/
+env/
+venv/
+backend/libenv/
+
+# Environment files
+.env
+!.env.example
+backend/.env
+!backend/.env.example
+
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+.pytest_cache/
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+backend/agbale.db
+
+# Diagrams & IDE
 *.drawio.bkp
+.vscode/
+.idea/
