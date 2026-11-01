@@ -18,7 +18,7 @@ class Settings(BaseSettings):
 
     # API Configuration
     PROJECT_NAME: str = "Agbale"
-    ORGANIZATION_NAME: str = "Bibliothèque Publique Agbale"
+    ORGANIZATION_NAME: str = "Bibliothèque Publique Djagblé"
     API_V1_STR: str = "/api/v1"
     DEBUG: bool = True
     ENVIRONMENT: str = "development"

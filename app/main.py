@@ -97,7 +97,7 @@ async def root():
 
 @app.get(
     "/health",
-    tags=["Health & Status"],
+    tags=["Health"],
     summary="Service Health Check",
     status_code=status.HTTP_200_OK,
 )
@@ -114,4 +114,11 @@ async def health_check():
         "status": "healthy" if db_status == "connected" else "degraded",
         "database": db_status,
         "environment": settings.ENVIRONMENT,
+        "service": settings.PROJECT_NAME,
+        "organization": settings.ORGANIZATION_NAME,
+        "version": "1.0.0",
+        "status": "online",
+        "docs": f"{settings.API_V1_STR}/docs",
+        "redoc": f"{settings.API_V1_STR}/redoc",
+        "openapi": f"{settings.API_V1_STR}/openapi.json",
     }
